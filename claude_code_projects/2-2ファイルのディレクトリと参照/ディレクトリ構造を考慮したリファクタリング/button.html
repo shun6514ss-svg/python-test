@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Design - Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-8 text-gray-800">Tailwind CSS Button</h1>
+
+    <!-- メインボタン -->
+    <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-lg py-3 px-8 rounded-full shadow-xl hover:shadow-2xl hover:from-purple-700 hover:to-pink-600 transition-all duration-200 active:scale-95">
+      CSSを生成
+    </button>
+
+    <!-- ボタンのバリエーション -->
+    <div class="mt-12">
+      <h2 class="text-xl font-bold mb-6 text-gray-800">バリエーション</h2>
+
+      <div class="space-y-4">
+        <!-- 小サイズ -->
+        <div>
+          <p class="text-sm text-gray-600 mb-2">Small</p>
+          <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-sm py-2 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-purple-700 hover:to-pink-600 transition-all duration-200 active:scale-95">
+            小
+          </button>
+        </div>
+
+        <!-- 中サイズ（デフォルト） -->
+        <div>
+          <p class="text-sm text-gray-600 mb-2">Medium</p>
+          <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-base py-2 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-purple-700 hover:to-pink-600 transition-all duration-200 active:scale-95">
+            中
+          </button>
+        </div>
+
+        <!-- 大サイズ -->
+        <div>
+          <p class="text-sm text-gray-600 mb-2">Large</p>
+          <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-lg py-3 px-8 rounded-full shadow-xl hover:shadow-2xl hover:from-purple-700 hover:to-pink-600 transition-all duration-200 active:scale-95">
+            大
+          </button>
+        </div>
+
+        <!-- 角丸バリエーション -->
+        <div class="mt-6">
+          <p class="text-sm text-gray-600 mb-2">Rounded Variations</p>
+          <div class="space-y-2">
+            <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-sm py-2 px-6 rounded-lg shadow-lg hover:shadow-xl hover:from-purple-700 hover:to-pink-600 transition-all duration-200 active:scale-95">
+              Rounded lg
+            </button>
+            <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-sm py-2 px-6 rounded-xl shadow-lg hover:shadow-xl hover:from-purple-700 hover:to-pink-600 transition-all duration-200 active:scale-95">
+              Rounded xl
+            </button>
+            <button class="bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-sm py-2 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-purple-700 hover:to-pink-600 transition-all duration-200 active:scale-95">
+              Rounded full
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

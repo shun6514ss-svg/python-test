@@ -1,0 +1,2 @@
+text="Python is a versatile, high-level, interpreted language known for simple syntax, object-oriented programming, a large standard library, and applications in various fields, with a strong developer community and easy-to-read code."
+print(len(text))

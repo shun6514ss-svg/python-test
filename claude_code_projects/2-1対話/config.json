@@ -1,0 +1,23 @@
+{
+  "language": "ja",
+  "greetings": {
+    "ja": {
+      "night": "おやすみなさい",
+      "morning": "おはようございます",
+      "afternoon": "こんにちは",
+      "evening": "こんばんは"
+    },
+    "en": {
+      "night": "Good night",
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    }
+  },
+  "timeRanges": {
+    "night": { "start": 0, "end": 5 },
+    "morning": { "start": 5, "end": 12 },
+    "afternoon": { "start": 12, "end": 18 },
+    "evening": { "start": 18, "end": 24 }
+  }
+}
